@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Создайте форму, добавьте в неё 4 разных поля для ввода данных (напишите input: и там будут все виды)
+    Стелизуйте их
+    Добавьте полям подписи (label)
+    Стелизуйте их
+    Добавьте кнопку подтверждения (input:submit)
+    Стилизуйте и её
+    Добавьте поля для ввода длинного текста (textarea), сделайте его растягиваемым, но только по X -->
+    <div class="text">Заполни шедевроформу и получи шедевроподзатыльник!</div>
+    <form action="">
+        <div class="email-field-wrapper">
+            <label for="email">ШедевроEmail</label> 
+            <input type="email" name="email" id="" required>
+        </div>
+        <div class="password-field-wrapper">
+            <label for="password">Шедевропароль</label>
+            <input type="password" name="password" id="" required>
+        </div>
+        <label for="">
+            Я согласен со всеми шедевроправилами
+            <input type="checkbox" name="" id="" required>
+        </label>
+        <label for="">
+            Я подтверждаю что у меня не больше 40 iQ
+            <input type="checkbox" name="" id="" required>
+        </label>
+        <label for="">
+            Мне меньше 1488
+            <input type="radio" name="radio" id="" required>
+        </label>
+        <label for="">
+            Мне больше 1488
+            <input type="radio" name="radio" id="" required>
+         </label>
+        <div class="comment-field-wrapper">
+            <label for="comment">О себе</label>
+            <textarea name="comment" id="" cols="30" rows="10"></textarea>
+        </div>
+        <input type="submit" value="Шедевросохранить" class="input-submit">
+    </form>
+
+</body>
+</html>

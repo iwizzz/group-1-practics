@@ -1,0 +1,35 @@
+* {
+    background-color: rgba(250, 235, 215, 0.966);
+}
+form {
+    border: solid 5px rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    max-width: 800px;
+    margin: auto;
+
+    
+}
+textarea {
+    resize: vertical;
+    max-height: 500px;
+    
+}
+.input-submit {
+    width: fit-content;
+    
+}
+.text {
+    font-size: 40px;
+    text-align: center;
+    color: rgb(255, 0, 0);
+}
+
+.email-field-wrapper, .password-field-wrapper, .comment-field-wrapper {
+    display: flex;
+    gap: 7px;
+    
+    
+}
+
