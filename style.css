@@ -1,14 +1,10 @@
 
 
-ul { margin-left: 232px;
-                   border }
-blockquote {border: 5px solid red ;
-border-radius: 30%;}
-
-blockquote {background-color: blueviolet;}
-ul {font-weight:bold;}
-
-
+li {margin-left: 400px ;
+  border: 25px solid blueviolet; 
+  background-color: antiquewhite ;   
+  border-radius: 20% ;            
+}
 
 
 
