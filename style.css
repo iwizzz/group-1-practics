@@ -1,9 +1,16 @@
 
 
-li {margin-left: 400px ;
-  border: 25px solid blueviolet; 
-  background-color: antiquewhite ;   
-  border-radius: 20% ;            
+.quote-list-item { border:5px dashed orangered ;
+}
+.quote-list-title { background-color: aquamarine; 
+    margin-left:250px ;
+    
+}
+.quote-list-quote { background-color: aqua;
+    margin-left:  80px;
+}
+.quote-list-author { background-color:rgb(73, 144, 238);
+margin-left: 750px;
 }
 
 
