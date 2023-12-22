@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.form {
+    font-size: 20px;
+    color: rgb(54, 54, 54);
+    background-color: rgba(111, 194, 213, 0.748);
+    font-family: 'Oswald', sans-serif;
+    width: fit-content;
+    margin: 0 auto;
+    padding: 10px 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.email-field-wrapper, .password-field-wrapper, .checkbox-wrapper, .radio-wrapper, .comment-field-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.comment-field-wrapper > textarea {
+    height: fit-content;
+    resize: vertical;
+    max-height: 200px;
+    min-height: 30px;
+    padding: 5px;
+}
+
+.input-submit {
+    font-family: 'Oswald', sans-serif;
+    font-size: 19px;
+    margin: 0 auto;
+    display: block;
+    padding: 10px 20px;
+    background-color: rgb(146, 199, 209);
+    color: black;
+    border: black solid 3px;
+    border-radius: 12px;
+}
+
+.email-field-wrapper > input, .password-field-wrapper > input {
+    padding: 5px;
+}
