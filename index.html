@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/main.css">
+</head>
+<body>
+   <div class="wrapper"> <!--  Этот элемент является корневым вместо body -->
+        <header class="header"><!-- Симантический тег header содержит в себе шапку сайта, обычно в неё находится логотип и навигация
+            (для навигации используется тег nav)-->
+            <div class="header__container _container"></div><!--Все классы или переменные начинающиеся с "_" являются служебными, 
+                в нашем случае это нужно для создания элемента, который мы будем использовать много раз-->
+        </header>
+        <main class="main"> <!-- Здесь располагается основной контент сайта-->
+            <section class="main__major-section major-section"><!--Такая запись класса подразумевает, что мы вышли из элемента 
+                main__major-section и зашли в major-section, это как переход в папку на уровень ниже. Нужно чтобы в элементах, вложенных в этот
+                мы могли писать начало класса не как main__major-section..., а как просто major-section...
+                так мы избегаем создания огромных классов по 10+ слов -->
+                <div class="major-section__container _container"><!-- Оганичивающий контейнер, за его размер контент не может выйти,
+                    задаёте по ширене самого большого блока в макете-->
+
+                </div>
+            </section>
+            <section class=""></section><!-- Симантический тег section разделяет между собой логические блоки сайта-->
+        </main>
+        <footer class="footer"></footer> <!-- Это что-то вроде послесловия, здесь распологаются контакты и доп навигация, 
+            находится внизу сайта-->
+    </div>
+</body>
+</html>
