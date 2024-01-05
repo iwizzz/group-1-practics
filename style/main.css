@@ -1,9 +1,32 @@
 @import url(./reset.css);
+:root {
+    --black: rgb(0, 0, 0);
+    --orange:#FF7143;
+    --white: #fff;
 
-
+}
+* {
+    font-family: 'Roboto', sans-serif;
+}
 
 .wrapper {
+    
     /*Сюда подключаем наш основонй шрифт, цвет текста и вообще всё, что влият на весь контент*/
+}
+.header {
+    background-color: var(--black);
+}
+.header__button-link-purchase {
+    background-color: var(--orange);
+    color: var(--black);
+    font-weight: bold;
+    padding: 12px;
+}
+.main {
+    background-color: var(--orange);
+}
+.footer {
+    background-color: var(--black);
 }
 
 ._container {

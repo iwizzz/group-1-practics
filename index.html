@@ -5,15 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./style/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
    <div class="wrapper"> <!--  Этот элемент является корневым вместо body -->
-        <header class="header"><!-- Симантический тег header содержит в себе шапку сайта, обычно в неё находится логотип и навигация
+        <header class="header"> 
+            <input type="button" value="Purchase template" class="header__button-link-purchase"><!-- Симантический тег header содержит в себе шапку сайта, обычно в неё находится логотип и навигация
             (для навигации используется тег nav)-->
             <div class="header__container _container"></div><!--Все классы или переменные начинающиеся с "_" являются служебными, 
                 в нашем случае это нужно для создания элемента, который мы будем использовать много раз-->
         </header>
-        <main class="main"> <!-- Здесь располагается основной контент сайта-->
+        <main class="main">   <!-- Здесь располагается основной контент сайта-->
             <section class="main__major-section major-section"><!--Такая запись класса подразумевает, что мы вышли из элемента 
                 main__major-section и зашли в major-section, это как переход в папку на уровень ниже. Нужно чтобы в элементах, вложенных в этот
                 мы могли писать начало класса не как main__major-section..., а как просто major-section...
