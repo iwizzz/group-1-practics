@@ -4,10 +4,24 @@
 
 .wrapper {
     /*Сюда подключаем наш основонй шрифт, цвет текста и вообще всё, что влият на весь контент*/
+    font-family: 'Roboto', sans-serif;
 }
 
 ._container {
     max-width: 1440px;
     box-sizing: content-box; /*Чтобы падинг не уменьшал размер контентной области*/
     padding: 0 15px; /*Отсутупы безопасности, чтобы при уменьшении контейнера, контент не прилипал к границам*/
+}
+
+.header {
+    background-color: #000000;
+    width: 1920px;
+    flex-shrink: 0;
+}
+
+svg {
+    width: 112px;
+    height: 36px;
+    flex-shrink: 0;
+    padding: 0 22px
 }
