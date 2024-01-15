@@ -1,37 +1,27 @@
 
-.quote-list { display: flex; 
- 
- flex-wrap:wrap ; gap:30px 30px ;
- padding:10px ;
- 
- }
-.quote-list-item { border:5px dashed orangered ;
-
-    flex: 1 25% ;
-    padding:10px ;
- text-align: center;
-}
-.quote-list-title { background-color: aquamarine; 
-    
-    padding:10px ;
+.image { width: 225px;
+    min-height: 350px;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column; 
+    border-radius: 4px;
+    transition: 0.2s;
+    position: relative;
+               
 
 }
-.quote-list-quote { background-color: aqua;
-  padding:10px ;
 
+
+.cars-list { 
 }
-.quote-list-author { background-color:rgb(73, 144, 238);
-    padding:10px ;
-    display: block;
-    text-align:right;
+.cars-list-item {
 }
-
-
-s
-
-
-
-
-
-
+.cars-list__image {
+}
+.cars-list__title { border: 3px dashed blue  ;
+}
+.cars-list__text {
+}
+.cars-list__button {
+}
 
