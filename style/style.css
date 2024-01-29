@@ -1,0 +1,31 @@
+
+.cars-list {   
+  display: flex;
+ flex-wrap: wrap;
+ gap: 40px;
+
+}
+.cars-list-item { 
+   
+ border: 2px solid blueviolet; 
+
+
+flex: 1 20%;
+
+    
+
+
+
+  
+}
+
+.cars-list__title {   
+}
+.cars-list__text {   
+
+ }
+.cars-list__button {   
+
+  
+
+}
