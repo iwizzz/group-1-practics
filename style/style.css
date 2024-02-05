@@ -4,16 +4,23 @@
  flex-wrap: wrap;
 gap: 40px;
 border: 4px solid blueviolet; 
-background-color: sandybrown;
+background-color: rgb(203, 245, 184);
+font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style:normal ;
+  font-variation-settings:"slnt" 0;
+   
+    gap: 100px 20px ;
 }
 .cars-list-item { 
    
-  border: 2px solid blueviolet; 
-
+  border: 1px solid blueviolet; 
+list-style: none;
 
 flex: 1 20%;
 
- 
+
     
 
 
@@ -21,16 +28,21 @@ flex: 1 20%;
   
 }
 
-.cars-list__title {   
+.cars-list__title {  margin-left:90px ;
+  
 }
-.cars-list__text {   
+.cars-list__text {   margin-left: 90px;
+  
+ 
 
  }
 .cars-list__button {   
-  border: 2px solid blueviolet; 
+  border-top: 2px solid blueviolet; 
+  flex:content ;
   
-  width: 100%;
   display: block;
+
 }
 .cars-list__image { width: 100%;
+  
 }
