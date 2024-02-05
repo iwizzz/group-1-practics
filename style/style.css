@@ -10,12 +10,12 @@ font-family: "Inter", sans-serif;
   font-weight:  400 ;
   font-style:normal ;
   font-variation-settings:"slnt" 0;
-   margin-left: 150px;
+   margin-left: 0 auto;
     gap: 70px 27px ;
 }
 .cars-list-item { 
    
-  border: 1px solid blue; 
+  border: 1px solid #0066FF; 
 list-style: none;
 
 flex: 1 20%;
@@ -37,11 +37,11 @@ flex: 1 20%;
 
  }
 .cars-list__button {   
-  border-top: 1px solid blue; 
+  border-top: 1px solid #0066FF; 
  font-size: x-small;
   text-align: center;
   display: block;
-
+text-decoration: none;
 }
 .cars-list__image { width: 100%;
   
