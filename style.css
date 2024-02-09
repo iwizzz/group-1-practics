@@ -1,0 +1,21 @@
+.fixed { background-color: blue;
+    position: fixed;
+    width: 178px ;
+   
+}
+.sticky { background-color: blanchedalmond;
+    position: sticky;
+    width: 147px ;
+}
+.relative { background-color: aquamarine;
+    width: 123px ;
+}
+.absolute { background-color: blueviolet;
+    position: absolute ; 
+    width: 100% ;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
