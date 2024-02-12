@@ -10,27 +10,204 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-   <div class="wrapper"> <!--  Этот элемент является корневым вместо body -->
+   <div class="wrapper">
         <header class="header"> 
-            <input type="button" value="Purchase template" class="header__button-link-purchase"><!-- Симантический тег header содержит в себе шапку сайта, обычно в неё находится логотип и навигация
-            (для навигации используется тег nav)-->
-            <div class="header__container _container"></div><!--Все классы или переменные начинающиеся с "_" являются служебными, 
-                в нашем случае это нужно для создания элемента, который мы будем использовать много раз-->
+            <div class="header__container _container">
+                <div class="header__body">
+                    <div class="header__img_wrapper">
+                        <img src="src\images\site-logo.svg" alt="">
+                    </div>
+                    <div class="header__mail_wrapper">
+                        <a href="mailto:mail@blanko.com">mail@blanko.com</a>
+                    </div>
+                </div> 
+                <nav class="header__nav">
+                    <ul class="header__link-list">
+                        <li class="header__link-list-item ">
+                            <a href="">Landing</a>
+                        </li>
+                        <li class="header__link-list-item">
+                            <a href="">All pages</a>
+                        </li>
+                        <li class="header__link-list-item">
+                            <a href="">Template</a>
+                        </li> 
+                        <li class="header__link-list-item _button">
+                            <a href="">Purchase template</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
         </header>
-        <main class="main">   <!-- Здесь располагается основной контент сайта-->
-            <section class="main__major-section major-section"><!--Такая запись класса подразумевает, что мы вышли из элемента 
-                main__major-section и зашли в major-section, это как переход в папку на уровень ниже. Нужно чтобы в элементах, вложенных в этот
-                мы могли писать начало класса не как main__major-section..., а как просто major-section...
-                так мы избегаем создания огромных классов по 10+ слов -->
-                <div class="major-section__container _container"><!-- Оганичивающий контейнер, за его размер контент не может выйти,
-                    задаёте по ширене самого большого блока в макете-->
+        <main class="main">
+            <section class="main__major-section major-section">
+                <div class="major-section__container _container">
+                    <div class="major-section__body">
+                        <h1 class="major-section__body_title">Blanko template</h1>
+                        <p class="major-section__body_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Odio mauris porttitor amet volutpat.</p>
+                        <ul class="major-section__body-link-list">
+                            <li class="major-section__body-link-list-item-button">
+                                <a href="">Purchase template</a>
+                            </li>
+                            <li class="major-section__body-link-list-item-button">
+                                <a href="">Other templates</a>
+                            </li>
+                        </ul> 
+                    </div> 
+                    <div class="major-section__img_container">
+                        <img src="src\images\template.jpg" alt="">
+                    </div>
+
+
 
                 </div>
             </section>
-            <section class=""></section><!-- Симантический тег section разделяет между собой логические блоки сайта-->
+            <section class="main__advantages-section advantages-section">
+                <div class="advantages-section__container _container">
+                    <ul class="advantages-section__list">
+                        <li class="advantages-section__list-item">
+                            <div class="advantages-section__img-container">
+                                <img src="src\images\speed-logo.svg" alt="">
+                            </div>
+                            <div class="advantages-section__text-container">
+                                <h1 class="advantages-section__list-item_title">Speed</h1>
+                                <p class="advantages-section__list-item_text">Open a commercial-grade current account from anywhere</p>
+                            </div>
+                        </li>
+
+                        
+                        <li class="advantages-section__list-item">
+                            <div class="advantages-section__img-container">
+                                <img src="src\images\design-logo.svg" alt="">
+                            </div>
+                            <div class="advantages-section__text-container">
+                                <h1 class="advantages-section__list-item_title">Design</h1>
+                                <p class="advantages-section__list-item_text">Open a commercial-grade current account from anywhere</p>
+                            </div>
+                            
+                        </li>
+                        
+                    
+                        <li class="advantages-section__list-item">
+                            <div class="advantages-section__img-container">
+                                <img src="src\images\modularity-logo.svg" alt="">
+                            </div>
+                            <div class="advantages-section__text-container">
+                                <h1 class="advantages-section__list-item_title">Modularity</h1>
+                                <p class="advantages-section__list-item_text">Open a commercial-grade current account from anywhere</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section class="main__quote-section quote-section">
+                <div class="quote-section__container _container">
+                    <blockquote class="quote-section__quote">
+                        <div class="quote-section__img-container">
+                            <img src="src\images\quote-logo.svg" alt="">
+                        </div>
+                        <p class="quote-section__quote-text">"Join a community of industry leading professionals. Join a community of industry leading professionals."</p>
+                        <cite class="quote-section__quote-author">Laura Paula <br> <span class="quote-section__quote-author-dignity">Director @Company</span> </cite>
+                        <div class="quote-section__square-container">
+                            <div class="quote-section__square-white"></div>
+                            <div class="quote-section__square-gray"></div>
+                        </div>
+                    </blockquote>
+                </div>
+            </section>
+            <section class="main__landing-pages-section landing-pages-section">
+                <div class="landing-pages-section__container _container">
+                    <h1 class="landing-pages-section__title">Landing pages</h1>
+                    <ul class="landing-pages-section__list">
+                        <li class="landing-pages-section__list-item">
+                            <div class="landing-pages-section__img-container">
+                                <img src="src\images\landing-one.jpg" alt="">
+                            </div>
+                            <h4 class="landing-pages-section__landing-pages-title">Landing one</h4>
+                        </li>
+                        <li class="landing-pages-section__list-item">
+                            <div class="landing-pages-section__img-container">
+                                <img src="src\images\landing-two.jpg" alt="">
+                            </div>
+                            <h4 class="landing-pages-section__landing-pages-title">Landing two</h4>
+                        </li>
+                        <li class="landing-pages-section__list-item">
+                            <div class="landing-pages-section__img-container">
+                                <img src="src\images\landing-three.png" alt="">
+                            </div>
+                            <h4 class="landing-pages-section__landing-pages-title">Landing three</h4>
+                        </li>
+                        <li class="landing-pages-section__list-item">
+                            <div class="landing-pages-section__img-container">
+                                <img src="src\images\landing-four.jpg" alt="">
+                            </div>
+                            <h4 class="landing-pages-section__landing-pages-title">Landing four</h4>
+                        </li>
+                    </ul>
+                </div>
+            </section>
         </main>
-        <footer class="footer"></footer> <!-- Это что-то вроде послесловия, здесь распологаются контакты и доп навигация, 
-            находится внизу сайта-->
+        <footer class="footer">
+            <div class="footer__container _container">
+                <div class="footer__part1">
+                    <div class="footer__img-wrapper">
+                        <img src="src\images\site-logo.svg" alt="">
+                    </div>
+                    <div class="footer__button">
+                        <a href="">Get on Webflow</a>
+                    </div>
+                </div>
+                <div class="footer__part2">
+                    <nav class="footer__nav">
+                        <ul class="footer__link-list">
+                            <li class="footer__link-list-item ">
+                                <a href="">Showcase</a>
+                            </li>
+                            <li class="footer__link-list-item">
+                                <a href="">Landing one</a>
+                            </li>
+                            <li class="footer__link-list-item">
+                                <a href="">Sign up</a>
+                            </li> 
+                            <li class="footer__link-list-item">
+                                <a href="">Other templates</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <ul class="footer__link-list-social-networks">
+                        <li class="footer__link-list-social-networks-item">
+                            <a href="">
+                                <img src="src\images\instagram.svg" alt="">
+                            </a>
+                        </li>
+                        <li class="footer__link-list-social-networks-item">
+                            <a href="">
+                                <img src="src\images\twitter.svg" alt="">
+                            </a>
+                        </li>
+                        <li class="footer__link-list-social-networks-item">
+                            <a href="">
+                                <img src="src\images\facebook.svg" alt="">
+                            </a>
+                        </li>
+                        
+                    </ul>
+                </div>
+                <div class="footer__part3">
+                    <p class="footer__part3_text">
+                        Powered by
+                        <img src="src\images\webflow-logo.svg" alt="">
+                        Designed by 
+                        <img src="src\images\Veljko.svg" alt="">
+                    </p>
+                    <div class="footer__part3_button">
+                        <a href="">Contact</a>
+                    </div>
+
+                </div>
+            </div>
+
+        </footer> 
     </div>
 </body>
 </html>
