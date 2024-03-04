@@ -1,0 +1,52 @@
+ @import "style.css";
+
+ div {  
+    background-color: rgb(43, 76, 119);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+ }
+ 
+ 
+ 
+ .form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; 
+     min-width: 500px;
+    padding: 50px 40px 40px 40px;
+    margin-top: 20px;
+    background-color: rgb(45, 100, 219);
+}
+input {
+font-size: large;
+padding: 10px ;
+
+}
+ h1{ 
+color:white;
+
+ }
+ 
+ 
+ @mixin boba {background-color: rgb(199, 190, 190) ; }
+.name {  
+    
+}
+.user {
+}
+.Password {
+}
+.number {
+}
+.id {
+}
+input.reg { background-color: red;
+  text-align: center;  
+  font-weight: bold;
+  color:white;
+  border-color:rgb(206, 54, 79) ;
+  border-bottom: 12px ;
+}
